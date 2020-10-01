@@ -1,25 +1,23 @@
 body {
-  background-color: #fff;
+  background-color: #ffffff;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px;
 }
 
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ************ */
-
+/**************/
 /*** HEADER ***/
-
-/* ************ */
+/**************/
 
 header {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 15px 0;
-  box-shadow: 1px 0 10px -5px #000;
+  padding: 15px 0px;
+  box-shadow: 1px 0px 10px -5px #000;
 }
 
 header .headerin {
@@ -27,14 +25,14 @@ header .headerin {
   max-width: 1600px;
   height: 80px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px;
 }
 
 header .headerin .logo {
   width: 215px;
   height: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   float: left;
   background-image: url("/logo.png");
   background-size: 100%;
@@ -42,17 +40,15 @@ header .headerin .logo {
   background-position: center;
 }
 
-/* ************ */
-
+/**************/
 /*** FOOTER ***/
-
-/* ************ */
+/**************/
 
 footer {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 30px 0px;
   background-color: #2f97f2;
 }
 
@@ -61,46 +57,35 @@ footer .footerin {
   max-width: 1400px;
   height: auto;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px;
   display: flex;
-  color: #fff;
+  color: #ffffff;
   letter-spacing: 1px;
 }
 
 footer .footerin h3 {
   font-size: 20px;
   font-weight: bold;
-  margin: 0 0 10px 0;
-  padding: 0;
-  color: #fff;
-}
-
-footer .footerin ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 14px;
-  text-transform: uppercase;
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  color: #ffffff;
 }
 
 footer .footerin div:first-child a {
-  color: #fff;
+  color: #ffffff;
   background-color: #0557bd;
-  border: 0;
+  border: 0px;
   font-size: 18px;
   padding: 15px;
-  margin: 30px 0;
+  margin: 30px 0px;
   width: 150px;
   border-radius: 5px;
   letter-spacing: 2px;
-  box-shadow: 0 0 10px -5px #000;
+  box-shadow: 0px 0px 10px -5px #000;
   cursor: pointer;
   text-decoration: none;
   display: block;
   text-align: center;
-}
-
-footer .footerin ul li a:hover {
-  text-decoration: underline;
 }
 
 footer .footerin div:first-child a:hover {
@@ -109,20 +94,30 @@ footer .footerin div:first-child a:hover {
 
 footer .footerin ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
-
 footer .footerin ul li {
   list-style: none;
-  margin: 0;
-  padding: 10px 0;
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+footer .footerin ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+footer .footerin ul li a:hover {
+  text-decoration: underline;
 }
 
 footer .footerin div {
   height: auto;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 footer .footerin .w40 {
@@ -133,11 +128,9 @@ footer .footerin .w30 {
   width: 30%;
 }
 
-/* **************** */
-
+/******************/
 /*** COPYRIGHTS ***/
-
-/* **************** */
+/******************/
 
 #copyrights {
   background-color: #1e2248;
@@ -148,88 +141,68 @@ footer .footerin .w30 {
   max-width: 1600px;
   height: auto;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 0px;
   display: flex;
 }
 
 #copyrights .copyrights-in .copyrights-text {
   width: auto;
   height: auto;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   float: left;
+  width: 50%;
   text-align: left;
-}
-
-#banner .banner-in p {
-  font-size: 16px;
-  font-weight: normal;
-  color: #fff;
-  margin: 0;
-  padding: 20px 0 50px 0;
-  letter-spacing: 1px;
-  text-shadow: 0 0 15px #000;
-}
-
-#banner .banner-in button p {
-  font-size: 16px;
-  margin: 20px 0 0 0;
-  padding: 0;
-  font-weight: normal;
-  letter-spacing: 2px;
-  color: #fff;
-  line-height: 30px;
 }
 
 #copyrights .copyrights-in .copyrights-text p {
   font-size: 14px;
-  color: #fff;
-  margin: 0;
-  padding: 0;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
   letter-spacing: 1px;
 }
 
 #copyrights .copyrights-in .social-icons {
   width: auto;
   height: auto;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   float: right;
+  width: 50%;
   text-align: right;
 }
 
 #copyrights .copyrights-in .social-icons ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 #copyrights .copyrights-in .social-icons ul li {
   display: inline;
-  padding: 0;
-  margin: 0 15px;
+  padding: 0px;
+  margin: 0px 15px;
 }
 
 #copyrights .copyrights-in .social-icons ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 
 #copyrights .copyrights-in .social-icons ul li a:hover {
   color: #2f97f2;
 }
 
-/* ***************** */
-
+/*******************/
 /*** HOME BANNER ***/
-
-/* ***************** */
+/*******************/
 
 #banner {
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 80px 0px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -242,32 +215,42 @@ footer .footerin .w30 {
   max-width: 1200px;
   height: auto;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px;
   text-align: center;
 }
 
 #banner .banner-in h1 {
   font-size: 53px;
   font-weight: normal;
-  color: #fff;
-  margin: 0;
-  padding: 0 0 0 0;
-  font-family:;
-  text-shadow: 0 0 15px #000;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  font-family: fangsong;
+  text-shadow: 0px 0px 15px #000;
+}
+
+#banner .banner-in p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #ffffff;
+  margin: 0px;
+  padding: 20px 0px 50px 0px;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 15px #000;
 }
 
 #banner .banner-in button {
   background-color: #f15c08;
-  margin: 20px 0 100px 0;
+  margin: 20px 0px 100px 0px;
   padding: 30px;
   border-radius: 100%;
-  border: 0;
+  border: 0px;
   width: 220px;
   height: 220px;
-  box-shadow: 0 10px 20px -5px #000;
-  outline: 0;
+  box-shadow: 0px 10px 20px -5px #000;
+  outline: 0px;
   cursor: pointer;
-  text-shadow: 0 0 10px -5px #000;
+  text-shadow: 0px 0px 10px -5px #000;
 }
 
 #banner .banner-in button:hover {
@@ -276,24 +259,32 @@ footer .footerin .w30 {
 
 #banner .banner-in button h2 {
   font-size: 50px;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-weight: normal;
   letter-spacing: 2px;
-  color: #fff;
+  color: #ffffff;
 }
 
-/* ************ */
+#banner .banner-in button p {
+  font-size: 16px;
+  margin: 20px 0px 0px 0px;
+  padding: 0px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #ffffff;
+  line-height: 30px;
+}
 
+/**************/
 /*** SEARCH ***/
-
-/* ************ */
+/**************/
 
 #search {
   width: 100%;
   height: 600px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px;
   position: relative;
 }
 
@@ -321,14 +312,14 @@ footer .footerin .w30 {
   width: auto;
   height: auto;
   margin: 0 auto;
-  padding: 50px 0 0 0;
+  padding: 50px 0px 0px 0px;
 }
 
 #search .noresults .text h2 {
   font-size: 30px;
   font-weight: normal;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   color: #2f97f2;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -338,22 +329,21 @@ footer .footerin .w30 {
   width: 100%;
   height: 100%;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px;
   display: flex;
 }
 
 #search .search-in .results {
   width: 40%;
   height: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
-
 #search .search-in .results .header {
   width: 100%;
   height: 62px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px;
   display: block;
   background-color: #f0f9fe;
   box-shadow: inset 0 0 10px -5px #f0f9fe;
@@ -362,7 +352,7 @@ footer .footerin .w30 {
 #search .search-in .results .header h2 {
   font-size: 18px;
   font-weight: bold;
-  margin: 0;
+  margin: 0px;
   padding: 20px;
   color: #2f97f2;
 }
@@ -377,7 +367,7 @@ footer .footerin .w30 {
   width: calc(100% - 40px);
   height: auto;
   margin: 20px auto;
-  padding: 0;
+  padding: 0px;
   background-color: #f0f9fe;
   cursor: pointer;
   border-radius: 3px;
@@ -388,7 +378,7 @@ footer .footerin .w30 {
   font-size: 20px;
   font-weight: bold;
   display: block;
-  margin: 0;
+  margin: 0px;
   padding: 20px;
   color: #2f97f2;
   position: relative;
@@ -408,9 +398,9 @@ footer .footerin .w30 {
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
-  color: #222;
-  padding: 0 15px 15px 50px;
-  margin: 0;
+  color: #222222;
+  padding: 0px 15px 15px 50px;
+  margin: 0px;
   line-height: 30px;
   position: relative;
 }
@@ -436,8 +426,8 @@ footer .footerin .w30 {
 #search .maparea {
   width: 60%;
   height: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   position: relative;
 }
 
